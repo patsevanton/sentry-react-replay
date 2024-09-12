@@ -6,7 +6,7 @@ docker build -t sentry-example .
 ```
 Launch the container:
 ```shell
-docker ru -p 80:80 sentry-example
+docker run -p 80:80 sentry-example
 ```
 
 In the browser, open http://localhost
